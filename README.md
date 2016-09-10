@@ -30,6 +30,12 @@ or
 ```bash
 mvnw.bat clean package
 ```
+for windows user try this
+SET JAVA_HOME=c:\dev\jdk
+SET M2_HOME=c:\dev\maven
+SET MAVEN_HOME=c:\dev\maven
+SET PATH=%M2_HOME\bin;%PATH%
+SET JAVA_TOOL_OPTIONS=-Dmaven.multiModuleProjectDirectory=$M2_HOME
 
 # Deployment
 
